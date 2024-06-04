@@ -41,7 +41,7 @@ const registerUsers = asyncHandler(async(req,res) => {
         }
  });
 
- //UPDATE "/api/users/login" update exsisting user 
+ //CURRENT "/api/users/login" update exsisting user 
  //@access PUBLIC
 
  const loginUsers = asyncHandler(async(req,res) => {
